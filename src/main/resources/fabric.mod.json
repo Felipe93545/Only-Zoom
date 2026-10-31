@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "only-zoom",
+	"version": "${version}",
+	"name": "Only Zoom",
+	"description": "This is a simple mod that allows you to zoom in and out with the mouse wheel. You can also change the keybind to whatever you want. This mod is for Fabric and is open source. You can find the source code on GitHub.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/only-zoom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"onlyzoom.modid.OnlyZoom"
+		],
+		"client": [
+			"onlyzoom.modid.client.OnlyZoomClient"
+		]
+	},
+	"mixins": [
+		"only-zoom.mixins.json",
+		{
+			"config": "only-zoom.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
