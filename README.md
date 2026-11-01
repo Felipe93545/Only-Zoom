@@ -1,3 +1,4 @@
+<img width="424" height="238" alt="Adobe Express - 2026-10-31 20-25-44" src="https://github.com/user-attachments/assets/a010e233-ec7b-4163-b846-452820a12ed6" />
 # Only Zoom
 
 ## Setup
